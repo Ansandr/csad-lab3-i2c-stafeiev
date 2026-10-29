@@ -1,0 +1,5 @@
+#1: START @    6.27 us | addr 0x50 W ACK | data 0x17 ACK | STOP @  198.77 us
+#2: START @  211.35 us | addr 0x50 W ACK | data 0xA5 ACK | STOP @  403.85 us
+#3: START @  416.43 us | addr 0x50 R ACK | data 0xC3 NACK | STOP @  608.93 us
+#4: START @  621.51 us | addr 0x51 W NACK | STOP @  724.01 us
+SCL period (within bytes): 10.00 us -> f_SCL = 100.0 kHz

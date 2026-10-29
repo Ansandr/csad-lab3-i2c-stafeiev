@@ -1,0 +1,13 @@
+GHDL 6.0.0 (6.0.0.r0.ge589c698c) [Dunoon edition]
+tb/tb_i2c.vhd:151:9:@206290ns:(report note): PASS: TX write 0x17 to 0x50 acknowledged
+tb/tb_i2c.vhd:151:9:@206290ns:(report note): PASS: slave received 0x17 (expected 0x17)
+tb/tb_i2c.vhd:151:9:@411370ns:(report note): PASS: TX write 0xA5 to 0x50 acknowledged
+tb/tb_i2c.vhd:151:9:@411370ns:(report note): PASS: slave received 0xA5 (expected 0xA5)
+tb/tb_i2c.vhd:151:9:@593950ns:(report note): PASS: RX received 0xC3 (expected 0xC3)
+tb/tb_i2c.vhd:151:9:@611450ns:(report note): PASS: RX address 0x50 acknowledged
+tb/tb_i2c.vhd:151:9:@731530ns:(report note): PASS: TX reports NACK for missing address 0x51
+tb/tb_i2c.vhd:151:9:@731530ns:(report note): PASS: slave register unchanged after NACK
+tb/tb_i2c.vhd:151:9:@731530ns:(report note): PASS: monitor: 4 START and 4 STOP conditions (expected 4/4)
+tb/tb_i2c.vhd:151:9:@731530ns:(report note): PASS: bus idle (SCL=SDA=1) after STOP
+tb/tb_i2c.vhd:196:7:@731530ns:(report note): TB RESULT: PASS (all checks passed)
+simulation finished @731530ns
