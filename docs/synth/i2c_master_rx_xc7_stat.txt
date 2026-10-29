@@ -1,0 +1,29 @@
+
+3. Printing statistics.
+
+=== i2c_master_rx ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       97 wires
+      239 wire bits
+       20 public wires
+       51 public wire bits
+       11 ports
+       24 port bits
+      121 cells
+        1   BUFG
+        4   CARRY4
+       34   FDRE
+        4   FDSE
+       10   IBUF
+        7   INV
+        2   IOBUF
+        7   LUT2
+        6   LUT3
+        6   LUT4
+        2   LUT5
+       22   LUT6
+        4   MUXF7
+       12   OBUF
+

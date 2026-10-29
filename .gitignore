@@ -15,3 +15,4 @@ __pycache__/
 db/
 incremental_db/
 output_files/
+sim/yosys/
