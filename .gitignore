@@ -1,0 +1,17 @@
+sim/work/
+sim/*.vcd
+sim/*.ghw
+sim/ghdl_run.log
+sim/synth_*
+*.o
+*.cf
+__pycache__/
+# vendor tool output
+*.runs/
+*.cache/
+*.jou
+*.log
+!docs/*.log
+db/
+incremental_db/
+output_files/
